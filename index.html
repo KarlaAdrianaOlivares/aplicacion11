@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Batalla de Puebla</title>
+<!--grupo css-->
+<link rel="stylesheet" href="css/app11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+
+<script src="phonegap.js"></script>
+
+</head>
+<style type="text/css">
+body {
+	background-color: #C6C;
+}
+.centrada {
+	text-align: center;
+}
+.centrado {
+	text-align: center;
+}
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<body>
+<div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>CBTis No.16</h1>
+  </div>  
+  <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>Mision y Visión</h1>
+          <div>
+          <center><h2>MISIÓN</h2></center>
+          <p>Formar personas con conocimientos tecnológicos en las áreas industrial, comercial y de servicios, a través de la preparación de profesionales técnicos y bachilleres, con el fin de contribuir al desarrollo sustentable del país.</p>
+          <br>
+          <center><h2>VISIÓN</h2></center>
+          <p>Ser una institución que proporcione una formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial y el entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestro plantel.</p>
+          <center><p>Da clic en la imagen para más información.</p></center>
+           <p><a href=http://www.cbtis016.edu.mx//><center><img src="imagenes/1.jpg" width="20%" height="20%"/></a></p></center>
+           <br>
+          </div>
+          </div>
+          </div>
+  
+  <div data-role="main" class="ui-content">
+  <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+    <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Especialidades</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Requisitos</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Te ofrecemos</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Contacto</h2>
+     </a>
+    </li>
+    <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+       <h1>Datos de quien lo elaboro</h1>
+       <div>
+        <h2>Nombre: Karla Adriana Olivares López</h2>
+        <br>
+        <h2>Semestre: 4 Grupo: "E"</h2>
+        <br>
+        <h2>Especialidad: Programación</h2>
+        <br>
+        <h2>Módulo: Desarrola Aplicaciones Móviles (DAM)</h2>
+       </div>
+      </div>
+     </div>
+   </ul>
+  </div>
+ </div>
+
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+ <center><h4>Karla Adriana Olivares López</h4></center>
+  <img src="res/android/mdpi.jpg" width="56" height="46">
+ </div>
+</div>
+
+<div data-role="page" id="page2" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Especialidades</h1>
+  </div>
+  <p>
+  <center><h2>1.-Administración de Recursos Humanos</h2></center>
+  <br>
+  <center><h2>2.-Programación</h2></center>
+  <br>
+  <center><h2>3-.Electricidad</h2></center>
+  <br>
+  <center><h2>4.-Mecánica Industrial</h2></center>
+</p>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Karla Adriana Olivares López</h4>
+     <img src="res/android/mdpi.jpg" width="56" height="46">
+    </div>
+   </div>
+   
+  <div data-role="page" id="page3" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Requisitos</h1>
+  </div>
+  <center><h2>Requisitos para solicitar ficha</h2></center>
+  <p>
+  1.-Constancia de estudios de ser alumno regular de 3er año de secundaria.
+  <br>
+  2.-Una copia de Acta de Nacimiento.
+  <br>
+  3.-Una copia CURP ( ampliación tamaño carta) 
+  <br>
+  4.-Dos fotografias tamaño infantil.
+  <br>
+  5.-Copia IFE del padre o tutor.
+  <br>
+  6.-Costo de la ficha $  .
+  <center><h2>Registro de Aspirantes</h2></center>                                   
+  <p>
+  Febrero 2 al 23 de Junio del 2016.
+  </p>
+  <br>
+  <center><h2>Curso de Nivelación</h2></center>
+  <p>
+  7 Sabádos a partir del 7 de Mayo al 18 de Junio del 2016 en área de Mateáticas y Lectura.
+  </p>
+  <br>
+  <center><h2>Examen de Admisión</h2></center>
+  <p>
+  24 de Junio del 2016 a las 7:30 am.
+  </p>
+  <br>
+  <center><h2>Inscripciones</h2></center>
+  <p>
+  Del  6 al 12 de Julio del 2016.
+  </p>
+  <br>
+  <center><h2>Requisitos de Inscripción</h2></center>
+  <p>
+  1.-Llenar solicitud de inscripción.
+  <br>
+  2.-Firmar carta compromiso.
+  <br>
+  3.-Certificado de secundaria ,original y 2 copias.
+  <br>
+  4.-CURP 2 copias.
+  <br>
+  5.-Comprobante de domicilio (2 copias).
+  <br>
+  6.- 6 fotografias tamaño infantil (blanco y negro no instantaneas).
+  <br>
+  7.-Certificado médico de buena salud,con tipo de sangre y factor RH.
+  </p>
+ <br>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Karla Adriana Olivares López</h4>
+     <img src="res/android/mdpi.jpg" width="56" height="46">
+    </div>
+   </div>
+   
+   <div data-role="page" id="page4" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Espacios que ofrecemos</h1>
+  </div>
+  <p>
+  ٠Aulas
+  <br>
+  ٠Laboratorio de Quimica 
+  <br>
+  ٠Laboratorio de Logistica 
+  <br>
+  ٠Laboratorio de Fisica
+  <br>
+  ٠Laboratorio de Cómputo
+  <br>
+  ٠Laboratorio de Ingles 
+  <br>
+  ٠Taller de Programación
+  <br>
+  ٠Taller de Automatización
+  <br>
+  ٠Biblioteca con equipo de computo y servicio de internet
+  <br>
+  ٠Edificio de oficinas administrativas
+ <br>
+ <center><h2>Espacios deportivos</h2></center>
+ <p>
+  ▪Campo  de futbol
+  <br>
+  ▪Cancha de voleibol
+  <br>
+  ▪Cancha de basquetbol
+  <br>
+  ▪Plaza civica
+ </p>
+</p>
+ <br>
+ <br>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/wowslider.html" style="width:960px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Karla Adriana Olivares López</h4>
+     <img src="res/android/mdpi.jpg" width="56" height="46">
+    </div>
+   </div>
+   
+    <div data-role="page" id="page5" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Ubicación</h1>
+  </div>
+  <center><h1>Direccion</h1></center>
+  <p>
+  Domicilio Conocido S/N.
+Col. Ricardo Flores Magon, CP 74240
+Atlixco, Pue.
+ <br>
+ <center><h2>Teléfono</h2></center>
+ <p>
+  (01) 244-445-25-43
+ </p>
+ <br>
+ <center><h2>Correo</h2></center>
+ <p>
+ cbtis016.dir@dgeti.sems.gob.mx
+ </p>
+  </p>
+  
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4>Karla Adriana Olivares López</h4>
+     <img src="res/android/mdpi.jpg" width="56" height="46">
+    </div>
+   </div>
+   
+ </div> 
+ </div>
+</div>   
+</body>
+</html>
